@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:locale" content="fr_FR" />
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="http://cedricsolignac.free.fr/favicon.ico">
+        <title>Blockbullchain Envoyer des Ethereum 💰</title>
+</head>
+
+<body>
+        <div class="container">
+
+                <img src="bbc.png" alt="Blockbullchain">
+                <h1>Je paye Blockbullchain en Ethereum 💰</h1>
+                <p>Blockbullchain va vous fournir une analyse de votre token favoris 🚀</p>
+                <p>Payer 150€ en crypto ici Ethereum et recevez votre pdf et votre analyse.</p>
+                <p>Vous avez fini le paiement ! Rendez vous sur Twitter <a href="https://twitter.com/BlockBullchain" target="_blank" rel="noopener noreferrer">@blockbullchain</a></p>
+                <h2>Depuis votre Metamask 🦊</h2>
+                <button class="login" id='connect-button'>1 Connection</button>
+                <button class="send" id='send-button'>2 Envoyer €150 en ETH</button>
+                <h2>Depuis votre mobile 📳</h2>
+                <img src="scan_eth.png" alt="Envoyer 150€ d'ETH">
+                <h3>Manuellement 🛠</h3>
+                <button onclick="copyText()" id='copy-button'>Copier</button>
+
+                <input type="text" value="0xF986aeC4635e48A76D84C2628EE2174055c9A40B" id="myInput">
+
+
+                <script src="sendeth.js"></script>
+                <script src="copy.js"></script>
+
+
+        </div>
+</body>
+
+</html>
